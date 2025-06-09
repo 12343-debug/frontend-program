@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 50vh;
+  padding: 0;
+  align-content: center;
+}
+
+.conatiner {
+  text-align-last: center;
+  justify-items: center;
+}
+.main-container {
+  text-align: center;
+  box-shadow: 16px 7px 38px 5px rgba(233, 231, 231, 0.73);
+  -webkit-box-shadow: 16px 7px 38px 5px rgba(204, 193, 193, 0.73);
+  -moz-box-shadow: 16px 7px 38px 5px rgba(240, 231, 231, 0.73);
+  height: 500px;
+  width: 400px;
+  margin: 50px;
+  background-color: white;
+}
+
+.image {
+  height: 60%;
+  width: 100px;
+  margin: 20px;
+  padding-top: 5px;
+}
+.para {
+  font-size: 20px;
+  color: grey;
+  padding: 15px;
+  margin: 1px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+.form-group{
+    text-align-last: auto;
+}
+
+
+.user-id {
+  padding: 6px;
+  width: 330px;
+  margin-bottom: 24px;
+}
+.password {
+  padding: 6px;
+  width: 330px;
+}
+.button {
+  height: 41px;
+  margin: 25px;
+  padding: 10px;
+
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #ff1100;
+  align-self: center;
+  width: 330px;
+  cursor: pointer;
+}
+
+.button-1{
+    width: 330px;
+    padding: 10px;
+    border: none;
+    color: blue;
+    font-weight: 400px;
+    font-family: 2px solid;
+}
+
+.button-1 i{
+    padding: 10px;
+}
+.zerodha-form-link {
+  padding: 0;
+}
+
+
+.playstore {
+  height: 31px;
+}
+
+.apple {
+  height: 50px;
+}
+
+.final {
+  color: rgb(129, 129, 129);
+}
+
+.final h1 {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.final p {
+  padding: 20px;
+}
